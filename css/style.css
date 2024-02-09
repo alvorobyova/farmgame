@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0x;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fdfcef;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.4em;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  line-height: 1.37em;
+}
+
+section {
+  padding-top: 120px;
+}
+
+.header {
+  padding-top: 60px;
+}
+
+.offer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 82px;
+}
+
+.offer {
+  width: 465px;
+}
+
+.logo {
+  display: block;
+}
+
+.introtext {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.btn {
+  background: #ff6861;
+  border-radius: 100px;
+  color: white;
+  padding: 22px 70px;
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  width: 227px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #f2958c;
+}
+
+.features-points {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  width: 720px;
+  margin: 70px auto 0 auto;
+}
+
+.points-item {
+  display: flex;
+  align-items: center;
+}
+
+.points-icon {
+  margin-right: 34px;
+}
+
+.points-title {
+  font-size: 30px;
+  margin-bottom: 11px;
+}
+
+.practice-wrapper {
+  background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  padding: 76px 125px 75px 122px;
+  justify-content: space-between;
+}
+
+.practice-block {
+  width: 475px;
+}
+
+.practice-title {
+  text-align: left;
+}
+
+.practice-text {
+  width: 371px;
+  margin: 24px 0;
+}
+
+.ladybug {
+  margin-left: 101px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer {
+  padding: 120px 0;
+}
